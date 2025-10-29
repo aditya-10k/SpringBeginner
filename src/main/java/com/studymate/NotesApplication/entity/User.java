@@ -29,4 +29,5 @@ public class User {
     private String name ;
     @DBRef
     private List<NewEntry> userEntries = new ArrayList<>();
+    private List<String> roles = new ArrayList<>();
 }
